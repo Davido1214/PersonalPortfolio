@@ -3,9 +3,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
 </head>
-<body>
-    
+<body class="font-nunito">
+    <!-- ---------------------------- intro section ---------------------------- -->
+    <div>
+        <h1 class="h-1/2 lg:h-screen bg-gradient-to-t from-amber-500 to-blue-300">
+<!-- ------------------------------- navbar -------------------------------- -->
+        <nav class="w-full  bg-fixed top-0 bg-slate-200 h-32 ">
+            <div class="container mx-auto py-4 flex items-center justify-between ">
+                <div class="sm:ml-4 mb-0 flex items-center gap-3 bg-gradient-to-tr from-amber-300 to-blue-300  rounded-lg pr-4 pb-1">
+                    <img class="h-24 w-24  rounded-lg " src="./assets/selfImage.png" alt="Illustration of myself">
+                    <span class="text-2xl font-bold text-slate-700">David Olea</span>
+                </div>
+                <ul class="hidden md:flex space-x-10 items-center text-gray-500 font-bold text-sm uppercase">
+                    <li class="hover:text-slate-700 hover:text-lg ">
+                        <a href="#">HOME</a>
+                    </li>
+                    <li class="hover:text-slate-700 hover:text-lg">
+                        <a href="#">ABOUT ME</a>
+                    </li>
+                    <li class="hover:text-slate-700 hover:text-lg">
+                        <a href="#">WORK</a>
+                    </li>
+                    <li class="hover:text-slate-700 hover:text-lg">
+                        <a href="#">CONTACT</a>
+                    </li>
+                    
+                </ul>
+                <div id="burger" class="space-y-1 md:hidden cursor-pointer z-20">
+                    <div class="w-6 h-1 bg-black"></div>
+                    <div class="w-6 h-1 bg-black"></div>
+                    <div class="w-6 h-1 bg-black"></div>
+
+                </div>
+                <ul id="menu" class="hidden bg-amber-300 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                    <li class=" ">
+                        <a href="#">HOME</a>
+                    </li>
+                    <li class="">
+                        <a href="#">ABOUT ME</a>
+                    </li>
+                    <li class="">
+                        <a href="#">WORK</a>
+                    </li>
+                    <li class="">
+                        <a href="#">CONTACT</a>
+                    </li>
+                </ul>
+                
+
+            </div>
+            
+        
+        </nav>
+        
+        <div class="mx-auto container text-center mt-60 pt-5">
+            <h1 class="text-4xl "><span class="text-8xl capitalize">Hello,</span > my name is DAVID.</h1>
+            <p class="pt-4 text-2xl capitalize">I am a self made software developer with skills concentrated on Javascript, React JS, React Native, Html &  Tailwind CSS</p>
+        </div>
+
+        
+
+        </h1>
+
+        <h1 class="h-1/2 lg:h-screen bg-gradient-to-t from-red-500 to-green-300"></h1>
+    </div>
+    <script src="./app.js"></script>
 </body>
 </html>
