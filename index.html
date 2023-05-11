@@ -9,10 +9,10 @@
 </head>
 <body class="font-nunito">
                  <!-- ---------------------------- intro section ---------------------------- -->
-    <div>
+    <div >
         <div class="h-4/5 sm:h-full lg:h-screen bg-gradient-to-t from-amber-500 to-blue-300">
                  <!-- ------------------------------- navbar -------------------------------- -->
-        <nav class="w-full  bg-fixed top-0 bg-slate-200 h-32 ">
+        <nav class="w-full   sm:fixed top-0 bg-slate-200 h-32 ">
             <div class="container mx-auto py-4 flex items-center justify-between ">
                 <div class="sm:ml-4 mb-0 flex items-center gap-3 bg-gradient-to-tr from-amber-300 to-blue-300  rounded-lg pr-4 pb-1">
                     <img class="h-24 w-24  rounded-lg " src="./assets/selfImage.png" alt="Illustration of myself">
@@ -20,10 +20,10 @@
                 </div>
                 <ul class="hidden md:flex space-x-10 items-center text-gray-500 font-bold text-sm uppercase">
                     <li class="hover:text-slate-700 hover:text-lg ">
-                        <a href="#">HOME</a>
+                        <a href="#section1">HOME</a>
                     </li>
                     <li class="hover:text-slate-700 hover:text-lg">
-                        <a href="#">PROJECTS</a>
+                        <a href="#section2">PROJECTS</a>
                     </li>
                     <li class="hover:text-slate-700 hover:text-lg">
                         <a href="#">ABOUT ME</a>
@@ -41,10 +41,10 @@
                 </div>
                 <ul id="menu" class="hidden bg-amber-300 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
                     <li class=" ">
-                        <a href="#">HOME</a>
+                        <a href="#section1">HOME</a>
                     </li>
                     <li class="">
-                        <a href="#">PROJECTS</a>
+                        <a href="#section2">PROJECTS</a>
                     </li>
                     <li class="">
                         <a href="#">ABOUT ME</a>
@@ -64,10 +64,11 @@
                     <!--                            HERO/LANDING PAGE                            -->
                     <!-- ----------------------------------------------------------------------- -->
 
-        <div class=" mx-auto container text-center md:mt-40 sm:max-w-md pt-5">
-            <div class="mt-16 ">
-                <h1 class=" text-2xl font-bold "><span class=" capitalize sm:flex sm:text-8xl flex justify-center font-bold text-6xl">Hello,</span > my name is DAVID.</h1>
-                <p class=" pt-4 text-md font-bold capitalize">I am a self taught software developer with skills concentrated on Javascript, React JS, React Native, Html &  Tailwind CSS</p>
+        <div id="section1" class=" mx-auto container text-center md:mt-20 sm:max-w-md pt-5">
+
+            <div class="mt-0 sm:pt-40">
+                <div class=" text-2xl font-bold sm:text-4xl "><span class="pb-12 capitalize sm:flex sm:text-9xl flex justify-center font-bold text-6xl">Hello.</span > MY NAME IS DAVID.</div>
+                <p class=" pt-4 text-md font-bold sm:text-4xl capitalize sm:leading-loose">I am a self taught software developer with skills concentrated on Javascript, React JS, React-Native, Html &  TailwindCSS</p>
             </div>
         </div>
 
@@ -78,20 +79,25 @@
                     <!-- ----------------------------------------------------------------------- -->
                     <!--                              PROJECTS PAGE                              -->
                     <!-- ----------------------------------------------------------------------- -->
-        <div class="h-1/4 lg:h-screen bg-white">
+        <div class="h-fit lg:h-screen bg-slate-100">
+
+            <div >
+                <h2 id="section2" class="mx-5 leading-loose text-center sm:text-5xl text-5xl font-bold pt-8 capitalize">PROJECTS</h2>
+            </div>
+
             <div class="sm:flex sm:justify-center mx-auto container space-y-4 sm:space-y-0">
                 
                 <div class="sm:basis-1/3  ">
                     <a target="_blank" href="https://www.youtube.com"><img class="mt-4 sm:w-5/6 sm:rounded-3xl rounded-3xl w-5/6 mx-auto border-2 border-b-black sm:border-solid border-amber-500 sm:border-b-black sm:border-amber-500 hover:opacity-50 hover:cursor-pointer sm:border-2 sm:mt-10" src="./assets/exampleWebpage.png" alt=""></a>
-                    <p class="mt-5 mx-5 leading-loose text-center font-bold capitalize sm:mb-0 mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit consequuntur in ullam voluptas sit dolores deserunt, accusantium fugiat earum repudiandae provident recusandae incidunt expedita consectetur error rem unde quibusdam?</p>
+                    <p class="mt-5 mx-5 leading-loose text-center font-bold text-gray-500 capitalize sm:mb-0 mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit consequuntur in ullam voluptas sit dolores deserunt, accusantium fugiat earum repudiandae provident recusandae incidunt expedita consectetur error rem unde quibusdam?</p>
                 </div>
 
                 <div class="sm:basis-1/3  "><a target="_blank" href="https://www.youtube.com"><img class="mt-4 sm:w-5/6 sm:rounded-3xl rounded-3xl w-5/6 mx-auto border-2 border-b-black sm:border-solid border-amber-500 sm:border-b-black sm:border-amber-500 hover:opacity-50 hover:cursor-pointer sm:border-2 sm:mt-10" src="./assets/exampleWebpage.png" alt=""></a>
-                    <p class="mt-5 mx-5 leading-loose text-center font-bold capitalize sm:mb-0 mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit consequuntur in ullam voluptas sit dolores deserunt, accusantium fugiat earum repudiandae provident recusandae incidunt expedita consectetur error rem unde quibusdam?</p>
+                    <p class="mt-5 mx-5 leading-loose text-center font-bold text-gray-500 capitalize sm:mb-0 mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit consequuntur in ullam voluptas sit dolores deserunt, accusantium fugiat earum repudiandae provident recusandae incidunt expedita consectetur error rem unde quibusdam?</p>
                 </div>
 
                 <div class="sm:basis-1/3  "><a class="" target="_blank" href="https://www.youtube.com"><img class="mt-4 sm:w-5/6 sm:rounded-3xl rounded-3xl w-5/6 mx-auto border-2 border-b-black sm:border-solid border-amber-500 sm:border-b-black sm:border-amber-500 hover:opacity-50 hover:cursor-pointer sm:border-2 sm:mt-10" src="./assets/exampleWebpage.png" alt=""></a>
-                    <p class="mt-5 mx-5 leading-loose text-center font-bold capitalize sm:mb-0 mb-10 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit consequuntur in ullam voluptas sit dolores deserunt, accusantium fugiat earum repudiandae provident recusandae incidunt expedita consectetur error rem unde quibusdam?</p>
+                    <p class="mt-5 mx-5 leading-loose text-center font-bold text-gray-500 capitalize sm:mb-0 mb-10 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore fugit consequuntur in ullam voluptas sit dolores deserunt, accusantium fugiat earum repudiandae provident recusandae incidunt expedita consectetur error rem unde quibusdam?</p>
                 </div>
             </div>
 
