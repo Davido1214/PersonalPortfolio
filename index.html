@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <link rel="stylesheet" href="output.css">
 </head>
 <body class="font-nunito">
                  <!-- ---------------------------- intro section ---------------------------- -->
-    <div >
+    <div class="">
         <div class="h-4/5 sm:h-full lg:h-screen bg-gradient-to-t from-amber-500 to-blue-300">
                  <!-- ------------------------------- navbar -------------------------------- -->
         <nav class="w-full   sm:fixed top-0 bg-slate-200 h-32 ">
@@ -26,7 +27,7 @@
                         <a href="#section2">PROJECTS</a>
                     </li>
                     <li class="hover:text-slate-700 hover:text-lg">
-                        <a href="#">ABOUT ME</a>
+                        <a href="#section3">ABOUT ME</a>
                     </li>
                     <li class="hover:text-slate-700 hover:text-lg">
                         <a href="#">CONTACT</a>
@@ -47,7 +48,7 @@
                         <a href="#section2">PROJECTS</a>
                     </li>
                     <li class="">
-                        <a href="#">ABOUT ME</a>
+                        <a href="#section3">ABOUT ME</a>
                     </li>
                     <li class="">
                         <a href="#">CONTACT</a>
@@ -79,10 +80,10 @@
                     <!-- ----------------------------------------------------------------------- -->
                     <!--                              PROJECTS PAGE                              -->
                     <!-- ----------------------------------------------------------------------- -->
-        <div class="h-fit lg:h-screen bg-slate-100">
+        <div class="h-fit sm:h-1/2 lg:h-screen bg-slate-100">
 
-            <div >
-                <h2 id="section2" class="mx-5 leading-loose text-center sm:text-5xl text-5xl font-bold pt-8 capitalize">PROJECTS</h2>
+            <div id="section2" >
+                <h2 class="mx-5 leading-loose text-center sm:text-5xl text-5xl font-bold pt-40 pb-8 capitalize">PROJECTS</h2>
             </div>
 
             <div class="sm:flex sm:justify-center mx-auto container space-y-4 sm:space-y-0">
@@ -102,6 +103,24 @@
             </div>
 
         </div> 
+
+                <!-- ----------------------------------------------------------------------- -->
+                <!--                                ABOUT ME                                 -->
+                <!-- ----------------------------------------------------------------------- -->
+        <div class="h-fit lg:h-screen bg-gradient-to-t from-amber-500 to-blue-300 -mt-10">
+            <h2 id="section3" class="mx-5 leading-loose text-center sm:text-5xl text-5xl font-bold pt-40 pb-8 capitalize">ABOUT ME</h2>
+            <div class="sm:ml-36 border-solid sm:border-b-4 border-b-2 w-5/6 sm:w-5/6 ml-10 border-amber-800 ">
+                <p class="mt-5 mx-5 leading-loose text-center font-bold text-black capitalize sm:mb-0 mb-10 pb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis, rem. Dolores dicta tempore fugiat quidem earum facilis vel voluptatibus, impedit quibusdam veritatis voluptatum soluta nobis quia rem, fuga recusandae eius placeat? Eum eligendi maiores officia reprehenderit ut accusamus quos fuga?</p>
+            </div>
+            <div class="flex justify-center mx-auto sm:container mt-10 sm:mt-6 gap-5">
+                <a target="_blank" href="https://www.linkedin.com/in/david-olea-087208187/"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ebeff0;"></i></a>
+                <a target="_blank" href="https://github.com/Davido1214"><i class="fa-brands fa-github fa-2xl" style="color: #ebeff0;"></i></a>
+            </div>
+            <div class="my-8 py-6 sm:my-0 sm:py-0">
+                <h4 id="section3" class="mx-5 leading-loose text-center sm:text-3xl text-5xl font-bold pt-20 pb-8 capitalize">PDF RESUME</h4>
+                <button id="downloadBtn" type="button" class="ml-48 sm:ml-auto sm:w-8 sm:flex sm:justify-center mx-auto w-8 h-10 sm:container mt-3 border-b-2 sm:border-b-4 border-amber-800 py-5 hover:opacity-80 "><i class="fa-solid fa-file-pdf fa-2xl" style="color: #ebeff0;"></i></button>
+            </div>
+        </div>
 
          
     </div>
